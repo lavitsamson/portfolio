@@ -1,3 +1,3 @@
 Portfolio
-Lavit Samson
+(Lavit Samson)
 built using React
