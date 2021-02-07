@@ -8,33 +8,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: "Lavit Samson",
-      headerLinks: [
-        { title: "Home", path: "/" },
-        { title: "About", path: "/about" },
-        { title: "Contact", path: "/contact" },
-      ],
-
-      home: {
-        title: "Web Developer",
-        subtitle: "Transforming imaginations into reality...",
-        text: "Your satisfaction my priority",
-      },
-
-      about: {
-        title: "About Me",
-      },
-
-      contact: {
-        title: "Let's Talk",
-      },
-    };
-  }
-
-  render() {
+ render() {
     return (
       <Router>
         <div className='row-template' fluid={true}>
