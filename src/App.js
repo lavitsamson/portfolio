@@ -43,9 +43,9 @@ class App extends React.Component {
           </div>
           <div className='main'>
             <Switch>
-              <Route path="/" exact><Home /></Route>
-              <Route path="/about"><About /></Route>
-              <Route path="/contact"><Contact /></Route>
+              <Route path="portfolio/" exact><Home /></Route>
+              <Route path="portfolio/about"><About /></Route>
+              <Route path="portfolio/contact"><Contact /></Route>
             </Switch>
           </div>
           <Footer />
